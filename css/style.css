@@ -1,0 +1,24 @@
+.blog-btn{
+    padding: 15px 20px;
+}
+.main-container{
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid;
+    box-shadow: 0ch;
+   
+}
+.trangle-container{
+   text-align: center;
+    margin: auto;
+}
+.trangle-image{
+    margin-left: 80px;
+    margin-right: 75px;
+}
+.rhombus-container{
+    text-align: center;
+}

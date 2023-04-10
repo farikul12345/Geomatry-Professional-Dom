@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geomatry Professional Dom</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="title-container d-flex justify-content-around bg-primary-subtle">
+    <div class="intro-div">
+        <h1 class="main-title">Intractive</h1>
+        <h3 class="main-des">Geomatry Genius</h3>
+    </div>
+    <div class="blog-btn mt-3 p-2">
+        <button type="button" class="btn btn-primary">Blog</button>
+    </div>
+</div> 
+    <div class="main-container mt-3 d-flex bg-warning">
+        <triangle class="trangle-container">
+            <img class="trangle-image" src="images/triangle.png" alt="">
+            <h1>Triangle</h1>
+            <p>Area (A) = 0.5* b * h</p>
+            <div class="small-button d-flex justify-content-around">
+                <input
+                id="triangle-btn"
+                type="text"
+                placeholder="b"
+              />
+              
+                <button>cm</button>
+                <input
+                id="trinagle-btn"
+                type="text"
+                placeholder="h"
+              />
+                <button>cm</button>
+            </div>
+            <div class="big-button mt-3">
+                <button id="cal-btn" type="button" class="btn btn-primary">Calculate</button>
+            </div>
+        </triangle>
+        <triangle class="rectangle-container">
+            <img class="ractangle-image" src="images/rectangle.png" alt="">
+            <h1>Ractangle</h1>
+            <p>Area (A) = w * I</p>
+            <div class="small-button d-flex justify-content-around">
+                <input
+                id="second-btn"
+                type="text"
+                placeholder="b"
+              />
+              
+                <button>cm</button>
+                <input
+                id="second-btn"
+                type="text"
+                placeholder="h"
+              />
+                <button>cm</button>
+            </div>
+            <div class="big-button mt-3">
+                <button id="rectan-btn" type="button" class="btn btn-primary">Calculate</button>
+            </div>
+        </triangle>
+        <triangle class="parallelogram-container">
+            <img class="parallelogram-image" src="images/parallelogram.png" alt="">
+            <h1>Parallelogram</h1>
+            <p> Area (A) = b * h</p>
+            <div>
+                <p id="des-para">10cm, 12cm</p>
+            </div>
+            <div class="big-button mt-3">
+                <button id="parallel-btn" type="button" class="btn btn-primary">Calculate</button>
+            </div>
+        </triangle>
+        <div class="low-container d-flex justify-content-around">
+            <p>Area Calculator</p>
+            <div>
+                <button type="button" class="btn btn-primary">Done</button>
+            </div>
+        </div>
+        </div>
+        <div class="main-container mt-3 d-flex bg-info">
+            <triangle class="rhombus-container">
+                <img class="trangle-image" src="images/rhombus.png" alt="">
+                <h1>Rhombus</h1>
+                <p>Area (A) = 0.5* d1 * d2</p>
+                <div>
+                    <p id="rohm-second-btn">16cm, 8cm</p>
+                </div>
+                <div class="big-button mt-3">
+                    <button id="rhom-pri-btn" type="button" class="btn btn-primary">Calculate</button>
+                </div>
+            </triangle>
+            <triangle class="pentagon-container">
+                <img class="pentagon-image" src="images/pentagon.png" alt="">
+                <h1>Pentagon</h1>
+                <p>Area (A) = 0.5* p * h</p>
+                <div>
+                    <p id="pentagon-second-btn">6cm, 10cm</p>
+                </div>
+                <div class="big-button mt-3">
+                    <button id="pentagon-btn" type="button" class="btn btn-primary">Calculate</button>
+                </div>
+            </triangle>
+            <triangle class="Elipese-container">
+                <img class="Elipese-image" src="images/ellipse.png" alt="">
+                <h1>Elipese</h1>
+                <p>Area (A) =22\7a*b</p>
+                <div>
+                    <p id="elipese-sec-btn">10cm, 4cm</p>
+                </div>
+                <div class="big-button mt-3">
+                    <button id="elipese-btn" type="button" class="btn btn-primary">Calculate</button>
+                </div>
+            </triangle>
+            </div>
+
+   
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
